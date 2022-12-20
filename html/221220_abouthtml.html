@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>221220 about html</title>
+
+</head>
+
+<body>
+  <h1>TIL</h1>
+  <h2>flex</h2>
+  <p>
+    <b>flex-grow</b> : 증가 너비 비율<br>
+    <b>flex-shrink</b> : 감소 너비 비율<br>
+    <b>flex-basis</b> : 기본 너비<br>
+  </p>
+  <h2>about 상속</h2>
+  <p>
+    border에 색상이 없다면 color의 값을 상속받는다.
+  </p>
+  <h2>태그 tabindex</h2>
+  <p>
+    tabindex는 tab을 할때 포커스가 되게 지정 할 수 있다. (-1, 0)
+  </p>
+  <h2>속성 contenteditable</h2>
+  <p>
+    속성 contenteditable<b>(content+edit+able 콘텐츠에디트에이블)</b>는 말 그대로 사용자가 내부 콘텐츠를 수정 가능하게 만든다. (ex. 노션!)
+  </p>
+  <h2>HTML entities</h2>
+  <p>
+    HTML entities (ex. &nbsp;) <a href="https://lynmp.com/ko/article/na4022da3d633f943a" target="_blank">HTML
+      entities</a> <br>
+    쓰면 코드로 변환되는 특수문자들을 웹 화면에 보이게 해준다. (ex. &lt;, &gt;, &amp;)
+  </p>
+  <h2>가상 클래스와 가상 요소 표기법</h2>
+  <p>
+    <b>가상 클래스</b> :nth-child <br>
+    <b>가상 요소</b> ::before
+  </p>
+  <h2>자동을 block 요소로 만드는 것들</h2>
+  <p>
+    <b>positon : absolute</b><br>
+    <b>position : fixed</b><br>
+    <b>float : left</b><br>
+    <b>float : right</b><br>
+    자동으로 <strong style="color: red;">block</strong> 요소로 만든다.
+  </p>
+  <h2>글자와 관련된 속성들</h2>
+  <p>
+    <b>글자와 관련된 속성들은 상속된다.</b><br>
+  </p>
+  <h2>폰트의 관하여</h2>
+  <p>
+    sans-serif 고딕체<br> sans는 프랑스어로 without을 뜻한다.
+    serif 바탕체<br> serif란 글씨를 쓸때 끝에 나오는 작은 돌출선을 뜻한다.
+    cursive 필기체<br>
+    monospace 고정 너비 폰트<br> 어떤 글자를 쓰던 너비가 고정값이다.
+    웹 폰트를 정의하는 이유는 경량화와 시간을 줄이는데 있다.
+  </p>
+  <h2>inline과 글자에 관련된</h2>
+  <p>
+    font-size<br>
+    font-weight<br>
+    font-family<br>
+    line-height<br>
+    font-style<br>
+    color<br>
+    text-align : center<br>
+    white-space : nowarp wrap은 감싸다라는 뜻 기본값은 wrap 너비가 줄어들면 글을 내린다. 단 한글자 단위<br>
+    word-break : keep-all wrap의 글자를 내리는 부분의 기준을 띄어쓰기로 바꾼다. 한글은 거의 필수!! 기본값은 normal<br>
+  </p>
+  <h2>inherit?</h2>
+  <p>
+    inherit은 조상의 값을 받는게 아니라 단 부모의 값만 상속받는다.
+  </p>
+  <h2>CSS 태그점수</h2>
+  <p>
+    상속 : - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 점수계산<br>
+    전체 : 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 전체.태그.클래스.아이디<br>
+    태그 : 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.1.10.100<br>
+    클래스 : 10<br>
+    아이디 : 100<br>
+    인라인 > 아이디 > 클래스 > 태그 > 전체 > 상속
+    인라인 영역은 1000점 !! 최상위다.
+  </p>
+</body>
+
+</html>
